@@ -78,6 +78,10 @@ button {
     border: 1px solid black;
 }
 
+#savedMapList {
+    margin-top: 15px;
+}
+
 #savedMapList .loadMapButton {
     font-size: 1.1em;
     padding: 0.25em;
@@ -85,3 +89,4 @@ button {
     background-color: rgb(223, 127, 110);
     border: 1px solid black;
 }
+

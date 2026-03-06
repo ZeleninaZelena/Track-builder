@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
 
+<body>
+    <div id="custom-container">
+
+        <section id="main-menu" class="flex-align">
+            <h1>Hlavní menu</h1>
+            <div>
+            <button id="newMapButton">Nová mapa</button>
+            <button id="loadMapButtonMenu">Načíst mapu</button>
+            </div>
+            <div id="savedMapList"></div>
+
+        </section>
+
+
+        <section id="editor" class="flex-align hidden">
+            <h1>Editor mapy</h1>
+            <div id="mapGrid"></div>
+            <div>
+                <input type="text" id="mapName" placeholder="Název mapy">
+                <button id="saveMapButton">Uložit mapu</button>
+                <button id="mainMenuButton">Zpět do menu</button>
+                <button id="exportMapButton">Export</button>
+                <input type="file" id="importFile">
+                <button id="importMapButton">Import</button>
+            </div>
+        </section>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
